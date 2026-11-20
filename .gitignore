@@ -1,0 +1,27 @@
+# Large Model weights (exceeds GitHub 100MB limit)
+**/models/*.gguf
+**/*.gguf
+**/*.bin
+**/*.pt
+**/*.safetensors
+
+# Python Virtual Environment & cache
+**/venv/
+**/.venv/
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+**/.env
+
+# ChromaDB, databases & uploaded user files
+**/data/chroma_db/
+**/data/uploads/
+**/*.db
+**/*.sqlite3
+
+# Frontend dependencies and build output
+**/node_modules/
+**/dist/
+**/.vite/
+.DS_Store
+Thumbs.db
